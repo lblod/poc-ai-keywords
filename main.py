@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from typing import List, Dict
-from typing_extensions  import TypedDict
+from typing import Dict
 
 import requests as ree
 from keybert import KeyBERT
