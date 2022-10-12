@@ -36,7 +36,7 @@ async def get_gen_keywords(text_prompt: str) -> Dict:
     prompt_len = len(text_prompt)
 
     #TODO: update endpoint url
-    res = ree.get(f"lblod-textgen-api:8080/generate?prompt={text_prompt}&?temperature=2&model=dutch-gpt-neo")
+    res = ree.get(f"http://lblod-textgen-api:8080/generate?prompt={text_prompt}&?temperature=2&model=dutch-gpt-neo")
     res = res.json()
 
     content = " ".join([r[prompt_len:] for r in res])
