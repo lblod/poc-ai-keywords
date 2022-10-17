@@ -1,6 +1,6 @@
 # poc-ai-keywords
 
-https://build.redpencil.io/api/badges/lblod/poc-ai-keywords/status.svg
+![](https://build.redpencil.io/api/badges/lblod/poc-ai-keywords/status.svg)
 
 This repository contains the code to get started with the keyword extraction api. This api is used to extract keywords from a given text,
 but also to extract keywords from generated text (integration with poc-ai-text-generation).
